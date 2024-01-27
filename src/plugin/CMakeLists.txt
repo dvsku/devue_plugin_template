@@ -4,10 +4,13 @@ FILE(GLOB_RECURSE INCLUDES CONFIGURE_DEPENDS
 	"${CMAKE_SOURCE_DIR}/include/*.hpp"
 )
 
+SET(PLUGIN_RC "${CMAKE_CURRENT_SOURCE_DIR}/resources/plugin.rc")
+
 # Change lib name
 # Name must begin with dv_plg_
 ADD_LIBRARY(dv_plg_template SHARED
 	${INCLUDES}
+	${PLUGIN_RC}
 	"devue_plugin.cpp"
 )
 
