@@ -2,7 +2,7 @@
 
 PROJECT(plugins CXX)
 
-SET(PLUGIN_LIB_DIR	   "${CMAKE_SOURCE_DIR}/devue_plugin_core/lib")
+SET(PLUGIN_LIB_DIR	   "${CMAKE_SOURCE_DIR}/lib")
 SET(PLUGIN_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/devue_plugin_core/include")
 SET(PLUGIN_CORE_DIR	   "${CMAKE_SOURCE_DIR}/devue_plugin_core/core")
 SET(PLUGIN_SOURCE_DIR  "${CMAKE_SOURCE_DIR}/src")
