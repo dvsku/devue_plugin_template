@@ -13,7 +13,7 @@ void devue_plugin_impl::impl_init(devue_plugin& plugin) {
 
 // Implement your supported model types.
 // Example model type:
-//     { "Wavefront object", ".obj"}
+//     { "Wavefront object", "*.obj"}
 // 
 // If this is meant to be a texture plugin, return an empty vector.
 std::vector<file_type> devue_plugin_impl::impl_get_model_types() {
@@ -22,7 +22,7 @@ std::vector<file_type> devue_plugin_impl::impl_get_model_types() {
 
 // Implement your supported model types.
 // Example model type:
-//     { "JPEG", ".jpg;.jpeg"}
+//     { "JPEG", "*.jpg *.jpeg"}
 // 
 // If this is meant to be a model plugin, return an empty vector.
 std::vector<file_type> devue_plugin_impl::impl_get_texture_types() {
