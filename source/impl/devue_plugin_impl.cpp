@@ -1,14 +1,15 @@
 #include "devue_plugin_impl.hpp"
 #include "devue_plugin.hpp"
+#include "plugin.hpp"
 
 using namespace devue::plugins;
 
 // Implement with your own details
 void devue_plugin_impl::impl_init(devue_plugin& plugin) {
-    plugin.name    = "devue plugin";
-    plugin.author  = "";
+    plugin.name    = PLG_NAME;
+    plugin.author  = PLG_AUTHOR;
     plugin.website = "";
-    plugin.version = "1.0.0";
+    plugin.version = PLG_VERSION_STR;
 }
 
 // Implement your supported model types.
