@@ -1,14 +1,14 @@
 ﻿INCLUDE(FetchContent)
 
-SET(FETCHCONTENT_QUIET OFF)
-SET(FETCHCONTENT_UPDATES_DISCONNECTED ON)
+SET(FETCHCONTENT_QUIET                OFF)
+SET(FETCHCONTENT_UPDATES_DISCONNECTED  ON)
 
-# BY DEFAULT SET TO PULL FROM MASTER BRANCH
-# TO USE A SPECIFIC COMMIT, SET GIT_TAG TO COMMIT HASH
+###############################################################################
+## devue_plugin_core
+
 FetchContent_Declare(
     devue_plugin_core
-    GIT_REPOSITORY https://github.com/dvsku/devue_plugin_core.git
-    GIT_TAG master
+    URL https://github.com/dvsku/devue_plugin_core/archive/refs/heads/master.zip
 )
 
 FetchContent_MakeAvailable(devue_plugin_core)
