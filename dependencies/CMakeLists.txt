@@ -4,14 +4,11 @@ SET(FETCHCONTENT_QUIET                OFF)
 SET(FETCHCONTENT_UPDATES_DISCONNECTED  ON)
 
 ###############################################################################
-## devue_plugin_core
+## devue_sdk
 
 FetchContent_Declare(
-    devue_plugin_core
-    URL https://github.com/dvsku/devue_plugin_core/archive/refs/heads/master.zip
+    devue_sdk
+    URL https://github.com/dvsku/devue_sdk/archive/ac3f30cad8ec2de130d6880e4e2f70e243fc10e9.zip
 )
 
-FetchContent_MakeAvailable(devue_plugin_core)
-
-SET(DEVUE_PLUGIN_CORE     "${devue_plugin_core_SOURCE_DIR}/core"    PARENT_SCOPE)
-SET(DEVUE_PLUGIN_INCLUDES "${devue_plugin_core_SOURCE_DIR}/include" PARENT_SCOPE)
+FetchContent_MakeAvailable(devue_sdk)
