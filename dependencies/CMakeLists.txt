@@ -8,7 +8,7 @@ SET(FETCHCONTENT_UPDATES_DISCONNECTED  ON)
 
 FetchContent_Declare(
     devue_sdk
-    URL https://github.com/dvsku/devue_sdk/archive/ac3f30cad8ec2de130d6880e4e2f70e243fc10e9.zip
+    URL https://github.com/dvsku/devue_sdk/archive/d9aa4f994b0a46e6689fab91a9bddedf3a56cc5c.zip
 )
 
 FetchContent_MakeAvailable(devue_sdk)
