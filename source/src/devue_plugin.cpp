@@ -30,7 +30,7 @@ devue_plugin::devue_plugin() {
 }
 
 // Implement model importing
-devue::sdk::devue_model_col devue_plugin::impl_import_model(const std::filesystem::path& filepath) {
+devue::sdk::devue_model_pack devue_plugin::impl_import_model(const std::filesystem::path& filepath) {
     throw std::runtime_error("Not implemented");
 }
 
